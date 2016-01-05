@@ -2,3 +2,16 @@ git init
 
 git config --global user.name "pollow"
 git config --global user.email "pollow.xc@gmail.com"
+
+git add README
+
+gc -m 'level 4'
+
+git clone https://github.com/Gazler/cloneme
+
+git clone https://github.com/Gazler/cloneme my_cloned_repo
+
+.gitignore:
+    *.swp
+
+
