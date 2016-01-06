@@ -14,4 +14,31 @@ git clone https://github.com/Gazler/cloneme my_cloned_repo
 .gitignore:
     *.swp
 
+.gitignore:
+    *.a
+    !lib.a
 
+git status:
+    database.yml
+
+gst:
+    2
+
+git rm deleteme.rb
+
+git rm --cached deleteme.rb
+
+git stash
+
+git mv oldfile.txt newfile.txt
+
+mkdir src
+git mv *.html src
+
+git log
+
+git tag new_tag
+
+git tag
+
+git push --follow-tags origin tag_to_be_pushed
