@@ -42,3 +42,10 @@ git tag new_tag
 git tag
 
 git push --follow-tags origin tag_to_be_pushed
+
+git add forgotten_file.rb
+git commit --amend
+
+Change the system time...
+
+git reset to_commit_second.rb
