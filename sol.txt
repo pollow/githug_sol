@@ -49,3 +49,12 @@ git commit --amend
 Change the system time...
 
 git reset to_commit_second.rb
+
+git reset --soft HEAD~1
+
+git checkout config.rb
+
+cat .git/config
+
+cat .git/config
+
