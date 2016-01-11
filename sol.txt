@@ -61,3 +61,40 @@ cat .git/config
 git pull origin master
 
 git remote add origin https://github.com/githug/githug
+
+git pull -rebase
+git push
+
+git diff
+找到那一行以后打开重新数一下，是26
+
+git blame config.rb
+
+git branch test_code
+
+git checkout -b my_branch
+
+git checkout v1.2
+
+git checkout tags/v1.2
+
+git checkout head~1
+git branch test_branch
+
+git branch -d delete_me
+
+git push origin test_branch
+
+git merge feature
+
+git fetch
+
+git checkout feature
+git rebase master
+
+git repack -a -d
+
+git cherry-pick ca32a6dac7b6f97975edbe19a4296c2ee7682f68
+
+git grep "TODO"
+
